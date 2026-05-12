@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>World Cup Player Registration Form 2026</h1>
+    <p>The 2026 FIFA World Cup will run from June 11 to July 19, 2026, hosted across 16 cities in Canada, Mexico, and the United States. The tournament kicks off on June 11, 2026, at Estadio Azteca in Mexico City, and the final will take place on July 19, 2026, at New York New Jersey Stadium (MetLife Stadium). </p>
+    <h2>Player Registration Info :</h2>
+
+    <form>
+        <label for="fname">First Name :</label>
+        <br>
+        <input type="text" id="fname" name="fname" placeholder="Mejbah" required>
+        <br>
+        <label for="midname">Middle Name  :</label>
+        <br>
+        <input type="text" name="midname" id="midname" placeholder="Uddin" required>
+        <br>
+        <label for="lname">Last Name  :</label>
+        <br>
+        <input type="text" name="lname" id="lname" placeholder="Akram" required>
+        <br>
+        <label for="email">Email :</label>
+        <br>
+        <input type="text" name="email" id="email" placeholder="mejbah@exmple.com" required>
+        <br>
+        <label for="contact">Contact Number :</label>
+        <br>
+        <input type="number" name="contact" id="contact" placeholder="01XXXXX9839" required>
+        <br>
+        <label for="address">Address :</label>
+        <br>
+        <textarea name="address" id="address" placeholder="Addresline 1, Street , City , Division" required></textarea>
+        <br>
+        <label for="gender">Gender :</label>
+        <br>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+        <br>
+         <input type="radio" name="gender" id="others" value="others" required>
+         <label for="others">Others</label>
+         <br>
+         <label for="country">Country</label>
+         <br>
+         <select name="country" id="country">
+         <option value="">Select Country</option>
+         <option value="Bangladesh">Bangladesh</option>
+         <option value="Spain">Spain</option>
+         <option value="Germany">Germany</option>
+         <option value="United Kingdom">United Kingdom</option>
+         <option value="Argentina">Argentina</option>
+         <option value="Brazil">Brazil</option>
+         <option value="Others">Others</option>
+         </select>
+         <br>
+         <br>
+         <label for="dob">Date Of Birth :</label>
+         <br>
+         <input type="date" name="dob" id="dob" required>
+         <br>
+         <p>I follow all the terms and conditions during the whole tournament.
+            <input type="checkbox" name="ch" id="ch" required>
+         </p>
+         <br>
+         <label for="user">Username :</label>
+         <br>
+         <input type="text" name="user" id="user" required>
+         <br>
+         <label for="passw">Password :</label>
+         <br>
+         <input type="password" name="pass" id="pass">
+         <br>
+         <br>
+         
+         <input type="submit" name="submit" id="submit">
+         <input type="reset" name="reset" id="reset">
+    </form>
+</body>
+</html>
